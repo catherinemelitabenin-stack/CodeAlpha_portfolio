@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Catherine Melita Benin R | Portfolio</title>
+  <meta name="description" content="Portfolio of Catherine Melita Benin R — B.E. CSE (AI & ML) student at Rathinam Technical Campus." />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+</head>
+<body>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav id="navbar">
+    <a href="#hero" class="nav-logo">
+      <!-- <span class="logo-first">Catherine Melita Benin R</span> -->
+
+    </a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#hero">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section id="hero">
+    <div class="hero-bg">
+      <!-- Animated blobs -->
+      <div class="blob blob-1"></div>
+      <div class="blob blob-2"></div>
+      <div class="blob blob-3"></div>
+      <div class="grid-overlay"></div>
+      <!-- Particle canvas -->
+      <canvas id="particleCanvas"></canvas>
+    </div>
+    <div class="hero-content reveal">
+      <div class="hero-badge">
+        <i class="fas fa-graduation-cap"></i>
+        <span>B.E. CSE — AI &amp; ML</span>
+      </div>
+      <h1>Hi, I'm <span class="gradient-text">Catherine Melita Benin R</span></h1>
+      <div class="typing-wrapper">
+        <span id="typed-text"></span><span class="cursor">|</span>
+      </div>
+      <p class="hero-desc">
+        A passionate Computer Science and Engineering student specialising in
+        Artificial Intelligence &amp; Machine Learning at Rathinam Technical Campus.
+        I build intelligent, user-friendly web applications and software solutions
+        that tackle real-world challenges.
+      </p>
+      <div class="hero-btns">
+        <a href="#projects" class="btn btn-primary"><i class="fas fa-rocket"></i> View My Work</a>
+        <a href="#contact" class="btn btn-outline"><i class="fas fa-paper-plane"></i> Contact Me</a>
+      </div>
+      <div class="hero-scroll-hint">
+        <span>Scroll to explore</span>
+        <div class="scroll-arrow"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about">
+    <div class="section-header reveal">
+      <span class="section-label">Who I Am</span>
+      <h2 class="section-title">About Me</h2>
+      <div class="title-line"></div>
+    </div>
+    <div class="about-content">
+      <div class="about-text reveal">
+        <p>
+          I am <strong>Catherine Melita Benin R</strong>, currently pursuing a
+          <strong>Bachelor of Engineering in Computer Science and Engineering
+          (Artificial Intelligence &amp; Machine Learning)</strong> at
+          <strong>Rathinam Technical Campus</strong>.
+        </p>
+        <p>
+          I completed my schooling at <strong>Dawn School, Chennai</strong>
+          under the CBSE curriculum, achieving <strong>74.4%</strong> in Class 10
+          and <strong>79.0%</strong> in Class 12.
+        </p>
+        <p>
+          I am a motivated engineer who enjoys building impactful software — from
+          gamified education platforms to AI-powered tools — while continuously
+          growing my skills in full-stack development, machine learning, and
+          problem solving.
+        </p>
+      </div>
+      <div class="about-stats reveal">
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-graduation-cap"></i></div>
+          <span>B.E.</span>
+          <p>CSE (AI &amp; ML)</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-award"></i></div>
+          <span>74.4%</span>
+          <p>Class 10 · CBSE</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-star"></i></div>
+          <span>79.0%</span>
+          <p>Class 12 · CBSE</p>
+        </div>
+        <div class="stat-card">
+          <div class="stat-icon"><i class="fas fa-code-branch"></i></div>
+          <span>5+</span>
+          <p>Personal Projects</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills">
+    <div class="section-header reveal">
+      <span class="section-label">What I Know</span>
+      <h2 class="section-title">My Skills</h2>
+      <div class="title-line"></div>
+    </div>
+    <div class="skills-grid">
+      <div class="skill-card reveal"><div class="skill-glow"></div><i class="fab fa-html5"></i><p>HTML5</p></div>
+      <div class="skill-card reveal"><div class="skill-glow"></div><i class="fab fa-css3-alt"></i><p>CSS3</p></div>
+      <div class="skill-card reveal"><div class="skill-glow"></div><i class="fab fa-js"></i><p>JavaScript</p></div>
+      <div class="skill-card reveal"><div class="skill-glow"></div><i class="fab fa-python"></i><p>Python</p></div>
+      <div class="skill-card reveal"><div class="skill-glow"></div><i class="fas fa-flask"></i><p>Flask</p></div>
+      <div class="skill-card reveal"><div class="skill-glow"></div><i class="fas fa-database"></i><p>SQL / MySQL</p></div>
+      <div class="skill-card reveal"><div class="skill-glow"></div><i class="fab fa-github"></i><p>Git &amp; GitHub</p></div>
+      <div class="skill-card reveal"><div class="skill-glow"></div><i class="fas fa-mobile-screen"></i><p>Responsive Design</p></div>
+      <div class="skill-card reveal"><div class="skill-glow"></div><i class="fas fa-brain"></i><p>Artificial Intelligence</p></div>
+      <div class="skill-card reveal"><div class="skill-glow"></div><i class="fas fa-robot"></i><p>Machine Learning</p></div>
+      <div class="skill-card reveal"><div class="skill-glow"></div><i class="fas fa-lightbulb"></i><p>Problem Solving</p></div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects">
+    <div class="section-header reveal">
+      <span class="section-label">What I Built</span>
+      <h2 class="section-title">Projects</h2>
+      <div class="title-line"></div>
+    </div>
+    <div class="projects-grid">
+
+      <!-- Zephyra -->
+      <article class="project-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="project-header">
+          <div class="project-icon-wrap"><i class="fas fa-leaf"></i></div>
+          <div class="project-links">
+            <a href="https://github.com/catherinemelitabenin-stack" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Source Code"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Zephyra</h3>
+        <p>A gamified environmental education platform for schools and colleges with quizzes, challenges, leaderboards, custom avatars, puzzles, and an AI-powered assistant.</p>
+        <div class="tech-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Python</span><span>AI</span>
+        </div>
+      </article>
+
+      <!-- Lofi Music Player -->
+      <article class="project-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="project-header">
+          <div class="project-icon-wrap"><i class="fas fa-music"></i></div>
+          <div class="project-links">
+            <a href="https://github.com/catherinemelitabenin-stack" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Source Code"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Lofi Music Player</h3>
+        <p>A browser-based lofi music player with curated tracks, adjustable settings, and persistent user preferences — built for distraction-free studying.</p>
+        <div class="tech-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </article>
+
+      <!-- Pomodoro Timer -->
+      <article class="project-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="project-header">
+          <div class="project-icon-wrap"><i class="fas fa-clock"></i></div>
+          <div class="project-links">
+            <a href="https://github.com/catherinemelitabenin-stack" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Source Code"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Pomodoro Timer</h3>
+        <p>A minimal productivity Pomodoro timer with session tracking, smooth animations, and a distraction-free interface to manage study time effectively.</p>
+        <div class="tech-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </article>
+
+      <!-- Calculator -->
+      <article class="project-card reveal" data-tilt>
+        <div class="card-glow"></div>
+        <div class="project-header">
+          <div class="project-icon-wrap"><i class="fas fa-calculator"></i></div>
+          <div class="project-links">
+            <a href="https://github.com/catherinemelitabenin-stack" target="_blank" rel="noopener noreferrer" class="icon-btn" aria-label="Source Code"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <h3>Calculator</h3>
+        <p>A responsive calculator for all basic arithmetic operations with a clean intuitive interface, smooth button animations, and accessible layout on all devices.</p>
+        <div class="tech-tags">
+          <span>HTML</span><span>CSS</span><span>JavaScript</span>
+        </div>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact">
+    <div class="section-header reveal">
+      <span class="section-label">Get In Touch</span>
+      <h2 class="section-title">Contact Me</h2>
+      <div class="title-line"></div>
+    </div>
+    <div class="contact-wrapper">
+      <div class="contact-info reveal">
+
+        <div class="contact-card">
+          <i class="fas fa-user"></i>
+          <div><span class="contact-label">Name</span><span class="contact-value">Catherine Melita Benin R</span></div>
+        </div>
+
+        <div class="contact-card">
+          <i class="fas fa-university"></i>
+          <div><span class="contact-label">College</span><span class="contact-value">Rathinam Technical Campus</span></div>
+        </div>
+
+        <div class="contact-card">
+          <i class="fas fa-graduation-cap"></i>
+          <div><span class="contact-label">Degree</span><span class="contact-value">B.E. CSE (AI &amp; ML)</span></div>
+        </div>
+
+        <!-- Email — opens mail client -->
+        <a href="mailto:catherinemelitabenin@gmail.com" class="contact-card contact-card-link">
+          <i class="fas fa-envelope"></i>
+          <div>
+            <span class="contact-label">Email</span>
+            <span class="contact-value">catherinemelitabenin@gmail.com</span>
+          </div>
+        </a>
+
+        <!-- GitHub — opens in new tab -->
+        <a href="https://github.com/catherinemelitabenin-stack" target="_blank" rel="noopener noreferrer" class="contact-card contact-card-link">
+          <i class="fab fa-github"></i>
+          <div>
+            <span class="contact-label">GitHub</span>
+            <span class="contact-value">catherinemelitabenin-stack</span>
+          </div>
+        </a>
+
+        <div class="contact-card">
+          <i class="fab fa-linkedin"></i>
+          <div><span class="contact-label">LinkedIn</span><span class="contact-value coming-soon">Coming soon</span></div>
+        </div>
+
+      </div>
+
+      <form class="contact-form reveal" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label for="fname">Your Name</label>
+          <input id="fname" type="text" placeholder="John Doe" required />
+        </div>
+        <div class="form-group">
+          <label for="femail">Your Email</label>
+          <input id="femail" type="email" placeholder="john@example.com" required />
+        </div>
+        <div class="form-group">
+          <label for="fsubject">Subject</label>
+          <input id="fsubject" type="text" placeholder="Project Inquiry" />
+        </div>
+        <div class="form-group">
+          <label for="fmessage">Message</label>
+          <textarea id="fmessage" rows="5" placeholder="Hi Catherine, I would like to..." required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary full-w">
+          <i class="fas fa-paper-plane"></i> Send Message
+        </button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p class="footer-text">Designed &amp; Built by <span>Catherine Melita Benin R</span></p>
+    <p class="footer-copy">© 2026 Catherine Melita Benin R. All rights reserved.</p>
+    <div class="social-links">
+      <a href="https://github.com/catherinemelitabenin-stack" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+      <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+      <a href="mailto:catherinemelitabenin@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
